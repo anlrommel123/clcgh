@@ -55,8 +55,26 @@
         height: 50px !important;
       }
 
-      h5 {
+      h1, h5 {
         font-weight: 600 !important;
+      }
+
+      .font-weight-message {
+        font-weight: 500;
+      }
+
+      .message-number-size {
+          font-size: 60px;
+        }
+
+      @media screen and (max-width: 575px) {
+        .message-number-align {
+          text-align: left !important;
+        }
+
+        .message-number-size {
+          font-size: 50px !important;
+        }
       }
   </style>
 </head>
@@ -176,12 +194,12 @@
           <div class="col-lg-12 text-center mb-5">
             <h1>God brought you here for His purpose.</h1>
           </div>
-          <div class="col-lg-1 text-center">
-            <h1 class="text-warning">1</h1>
+          <div class="col-lg-1 message-number-align text-center">
+            <h1 class="text-warning message-number-size">1</h1>
           </div>
           <div class="col-lg-5">
             <h5>YOU HAVE A PURPOSE</h5>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               Maybe you are searching for a long time, for meaning, or your purpose.
               But God created us for a reason, He wants us to “know” Him and to “love” Him. Otherwise, we'll miss the whole point.
             </p>
@@ -192,12 +210,12 @@
               We love because <u>He first loved us.</u> -1 John 4:19
             </p>
           </div>
-          <div class="col-lg-1 text-center">
-            <h1 class="text-secondary">2</h1>
+          <div class="col-lg-1 message-number-align text-center">
+            <h1 class="text-secondary message-number-size">2</h1>
           </div>
           <div class="col-lg-5">
             <h5>YOU ARE NOT ALONE</h5>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               In this life, all of us have problems, struggles and challenges. But God wants us to surrender it to Him and trust in Him. All we need is an open heart and I believe you will find Him.
             </p>
             <p class="font-message-hope">
@@ -207,12 +225,12 @@
               <u>So do not fear, for I am with you; do not be dismayed, for I am your God.</u> I will strengthen you and help you; I will uphold you with my righteous right hand. -Isaiah 41:10
             </p>
           </div>
-          <div class="col-lg-1 text-center">
-            <h1>3</h1>
+          <div class="col-lg-1 message-number-align text-center">
+            <h1 class="message-number-size">3</h1>
           </div>
           <div class="col-lg-5">
             <h5>YOU ARE WORTHY</h5>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               None of us are perfect, we're all sinners. But God actually comes down to give us strength and the faith that we don't have. 
             </p>
             <p class="font-message-hope">
@@ -222,12 +240,12 @@
               God demonstrates his own love for us in this: <u>While we were still sinners, Christ died for us.</u> -Romans 5:8
             </p>
           </div>
-          <div class="col-lg-1 text-center">
-            <h1 class="text-success">4</h1>
+          <div class="col-lg-1 message-number-align text-center">
+            <h1 class="text-success message-number-size">4</h1>
           </div>
           <div class="col-lg-5">
             <h5>YOU ARE HIS CHILD</h5>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               God desires for us to have a meaningful life with Him in the present and gain eternal life with Him in the future. If we align ourselves with Him, because God is faithful, He keeps His promises to those who love Him.
             </p>
             <p class="font-message-hope">
@@ -237,18 +255,18 @@
               <u>If you remain in me and my words remain in you</u>, ask whatever you wish, and it will be done for you. -John 15:7
             </p>
           </div>
-          <div class="col-lg-1 text-center">
-            <h1 class="text-danger">5</h1>
+          <div class="col-lg-1 message-number-align text-center">
+            <h1 class="text-danger message-number-size">5</h1>
           </div>
           <div class="col-lg-5">
             <h5>YOUR LIFE IS NOT TEMPORAL</h5>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               God is Holy and we are separated from Him because we are sinful.
             </p>
             <p class="font-message-hope">
               For all have sinned and fall short of the glory of God. -Romans 3:23
             </p>
-            <p class="font-message-hope">
+            <p class="font-message-hope font-weight-message">
               But Jesus Christ, the Son, died for us to have a reconnection with God our Father. In Him, our sin was forgiven and gave us eternal life, by putting our faith in Him, believing in Him and obeying His gospel. So that we can spend our life with Him in Heaven, with no pain and suffering for eternity
             </p>
             <p class="font-message-hope">
@@ -268,7 +286,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
             <p>
-              Our journey as a follower of our Lord Jesus Christ is not meant to be self-reliance but with others who share the same path. Come and join us, as we will help you to grow more with Jesus Christ.
+              Our journey as a follower of our Lord Jesus Christ is not meant to be lived alone but with others who share the same path. Come and join us, as we will help you to grow more with Jesus Christ.
             </p>
             <a class="cta-btn" href="#">Join Cell Group</a>
           </div>
@@ -284,14 +302,12 @@
 
     <div class="footer-content">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col col-lg-2">
+        <div class="row">
+          <div class="col text-center">
             <h3>Follow Us On</h3>
-          </div>
-          <div class="col col-lg-2">
-            <div class="social-links d-flex">
-              <a href="#" class="twitter"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-youtube"></i></a>
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://www.facebook.com/clcgh.mabolo.cebu" class="twitter" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.youtube.com/@clcghcebu5912" class="facebook" target="_blank"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
         </div>
