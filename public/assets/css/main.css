@@ -196,7 +196,7 @@ section {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../img/clcgh.png') center no-repeat #fff;
+  background: url('../img/clcgh-preloader.png') center no-repeat #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1313,7 +1313,7 @@ section {
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left top no-repeat;
+  /* background: url("../img/contact-bg.png") left top no-repeat; */
   background-size: contain;
   position: relative;
 }
